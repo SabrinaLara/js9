@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio de notas</title>
+    <!--bootstrap local-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <h1>Promedio de notas de materias</h1>
+  <form id="form" action="#bienvenida">
+
+    <label class="nombreCustom" for="nombre">Nombre</label><input type="text" id="nombre" placeholder="ingrese nombre">
+    <label class="nombreCustom" for="apellido">Apellido</label><input type="text" id="apellido" placeholder="ingrese apellido">
+    <input type="submit" value="Enviar" onclick="enviarBienvenida()"> 
+    <p id="bienvenida"></p>
+    <h2>Ingrese nota de matemáticas:</h2><br><input type="text" id="m1"><br>
+    <h2>Ingrese nota de inglés:</h2><br><input type="text" id="m2"><br>
+    <h2>Ingrese nota de bioquímica:</h2><br><input type="text" id="m3"><br>
+    <h2>Ingrese nota de anatomía:</h2><br><input type="text" id="m4"><br></br>
+    <input type="button" value="Calcular" onclick="Calcular();">
+    <input type="reset" value="Limpiar Datos">
+
+  </form> 
+  <p id="promedio"></p>
+   
+  <!--<script src="assets/javascript/des5.js"></script>-->
+  <script src="assets/javascript/des5.js"></script>
+  <script src="assets/javascript/alumno.js"></script>
+  <script src="assets/javascript/obj.js"></script> 
+  <script src="assets/javascript/events.js"></script> 
+</body>
+</html>

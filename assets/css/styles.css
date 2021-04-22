@@ -1,0 +1,11 @@
+body {
+	font-family: 'Lexend', sans-serif;
+	text-align: center;
+	background-image: linear-gradient(to bottom, #2C3A47 , #D6A2E8);	
+	margin-bottom: 4em;
+}
+
+.nombreCustom {
+	padding: 1em;
+	font-weight: bold;
+}
